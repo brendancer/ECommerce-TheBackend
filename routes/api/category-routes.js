@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const { Category, Product } = require("../../models");
-const { json } = require("sequelize/types");
+//const { json } = require("sequelize/types");
 
 // The `/api/categories` endpoint
 
@@ -37,7 +37,7 @@ router.get("/:id", async (req, res) => {
 router.post("/", async (req, res) => {
   const categoryData = await Category.create(req.body);
   res.status(200).json(categoryData);
-  return res.jason(categoryData);
+  return res.json(categoryData);
 });
 
 // update a category by its `id` value
@@ -67,13 +67,13 @@ router.delete("/:id", async (req, res) => {
       },
     });
     if (!categoryData) {
-      res.status(404).jason({ message: "sorry, no category with that id" });
+      res.status(404).json({ message: "sorry, no category with that id" });
       return;
     }
     res.status(200).json(categoryData);
     console.log("category has been deleted");
   } catch (err) {
-    res.status(500).jason(err);
+    res.status(500).json(err);
   }
 });
 
