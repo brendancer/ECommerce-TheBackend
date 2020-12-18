@@ -20,11 +20,11 @@
 
   ## *Installation Instructions* <a name="installation"></a>
 
-  Run npm install. Then seed the database by running npm run seed. To start the server run npm start. I used MySql workbench to view my tables in the ecommerce_db, and Insomnia to test the routes.
+  Run npm install. Then seed the database by running npm run seed. 
 
   ## *Usage Instructions* <a name="usage"></a>
 
-  copy
+  To start the server run npm start. I used MySql workbench to view my tables in the ecommerce_db, and Insomnia to test the routes.
 
   ## *License*
 
