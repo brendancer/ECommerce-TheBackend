@@ -7,11 +7,16 @@ const { Product, Category, Tag, ProductTag } = require("../../models");
 // be sure to include its associated Category and Tag data
 router.get("/", async (req, res) => {
   try {
-    const productData = await Product.findAll({ include: Category, Tag });
+    const productData = await Product.findAll({
+      include: [{ model: Category }, { model: Tag }],
+    });
+    if (!productData) {
+      res.status(404).json({ message: "Sorry, no products with that id" });
+    }
     res.status(200).json(productData);
-    console.log(productData);
   } catch (err) {
     res.status(500).json(err);
+    console.log(err);
   }
 });
 
@@ -20,17 +25,17 @@ router.get("/", async (req, res) => {
 // be sure to include its associated Category and Tag data
 router.get("/:id", async (req, res) => {
   try {
-    const productData = await Product.findByPK(req.params.id, {
-      include: Product,
-      Tag,
+    const productData = await Product.findByPk(req.params.id, {
+      include: [{ model: Category }, { model: Tag }],
     });
     if (!productData) {
       res.status(404).json({ message: "sorry,no product with this id" });
       return;
     }
-    res.status(200).json(categoryData);
+    res.status(200).json(productData);
   } catch (err) {
     res.status(500).json(err);
+    console.log(err);
   }
 });
 
