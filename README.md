@@ -38,6 +38,10 @@ Test the routes in Insomnia.
 
 ## _Questions?_
 
-Contact the author at: ###_email:_ brendanced@gmail.com  
- ###_linkedIn:_ https://www.linkedin.com/in/brendagoodwin23/  
- ###_GitHub:_ https://github.com/brendancer
+Contact the author at:
+
+### _email:_ brendanced@gmail.com
+
+### _linkedIn:_ https://www.linkedin.com/in/brendagoodwin23/
+
+### _GitHub:_ https://github.com/brendancer
