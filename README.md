@@ -20,11 +20,11 @@
 
   ## *Installation Instructions* <a name="installation"></a>
 
-  Run npm install. Then seed the database by running npm run seed. 
+  Run npm i to install dotenv, express, mysql12, and sequelize.
 
   ## *Usage Instructions* <a name="usage"></a>
 
-  To start the server run npm start. I used MySql workbench to view my tables in the ecommerce_db, and Insomnia to test the routes.
+Update the environment variable file (.env) file if needed. To start the server run npm start, then seed the database by running npm run seed.  I used MySql workbench to view my models (tables) in the ecommerce_db, and Insomnia to test the routes.
 
   ## *License*
 
