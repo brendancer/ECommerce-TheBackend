@@ -34,9 +34,9 @@ router.get("/:id", async (req, res) => {
 
 // create a new tag
 router.post("/", async (req, res) => {
-  const categoryData = await Category.create(req.body);
-  res.status(200).json(categoryData);
-  return res.json(categoryData);
+  const tagData = await Tag.create(req.body);
+  res.status(200).json(tagData);
+  return res.json(tagData);
 });
 
 // update a tag's name by its `id` value
