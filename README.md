@@ -4,6 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![walkthrough video]({[![mq1.jpg](https://i.postimg.cc/Nfx1sd9F/mq1.jpg)](https://postimg.cc/VddS4BFP)})]({https://youtu.be/3wGaufzKnag} "E-Commerce--the Backend")
+
 ### Table of Contents
 
 1. [Description of Project](#description)
