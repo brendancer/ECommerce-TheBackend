@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[![Watch the video](https://img.youtube.com/vi/3wGaufzKnag/maxresdefault.jpg)](https://youtu.be/3wGaufzKnag)
+[![Watch the video](https://postimg.cc/VddS4BFP](https://youtu.be/3wGaufzKnag)
 
 ### Table of Contents
 
