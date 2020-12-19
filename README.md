@@ -6,7 +6,7 @@
 
 [![mq1.jpg](https://i.postimg.cc/Nfx1sd9F/mq1.jpg)](https://postimg.cc/VddS4BFP)
 
-[![Watch the video](https://youtu.be/3wGaufzKnag)
+[Watch the video](https://youtu.be/3wGaufzKnag)
 
 ### Table of Contents
 
